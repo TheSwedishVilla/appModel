@@ -379,8 +379,8 @@ function App() {
                         type="text"
                         placeholder="Company*"
                       />
-                      <span class="icon is-small is-left">
-                        <i class="fas fa-building"></i>
+                      <span className="icon is-small is-left">
+                        <i className="fas fa-building"></i>
                       </span>
                     </div>
                   </div>
@@ -391,8 +391,8 @@ function App() {
                         type="text"
                         placeholder="Name*"
                       />
-                      <span class="icon is-small is-left">
-                        <i class="fas fa-user"></i>
+                      <span className="icon is-small is-left">
+                        <i className="fas fa-user"></i>
                       </span>
                     </div>
                   </div>
@@ -403,8 +403,8 @@ function App() {
                         type="text"
                         placeholder="Position"
                       />
-                      <span class="icon is-small is-left">
-                        <i class="fas fa-suitcase"></i>
+                      <span className="icon is-small is-left">
+                        <i className="fas fa-suitcase"></i>
                       </span>
                     </div>
                   </div>
@@ -415,8 +415,8 @@ function App() {
                         type="text"
                         placeholder="Mail*"
                       />
-                      <span class="icon is-small is-left">
-                        <i class="fas fa-envelope"></i>
+                      <span className="icon is-small is-left">
+                        <i className="fas fa-envelope"></i>
                       </span>
                     </div>
                   </div>
@@ -427,8 +427,8 @@ function App() {
                         type="text"
                         placeholder="Phone"
                       />
-                      <span class="icon is-small is-left">
-                        <i class="fas fa-phone"></i>
+                      <span className="icon is-small is-left">
+                        <i className="fas fa-phone"></i>
                       </span>
                     </div>
                   </div>
@@ -484,7 +484,10 @@ function App() {
                 Request meeting
               </motion.button>
               <motion.button
-                whileHover={{ backgroundColor: "#1e272e", color: "white" }}
+                whileHover={{
+                  backgroundColor: "#1e272e",
+                  color: "rgba(256, 256, 256, 1)",
+                }}
                 className="button is-light"
                 onClick={() => setModal(false)}
               >
