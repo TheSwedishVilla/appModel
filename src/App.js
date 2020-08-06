@@ -16,11 +16,16 @@ function App() {
           backgroundAttachment: "fixed",
         }}
       >
-        <nav className="navbar" role="navigation" aria-label="main navigation">
+        <nav
+          className="navbar"
+          role="navigation"
+          aria-label="main navigation"
+          style={{ backgroundColor: "rgba(30, 39, 46,0.6)" }}
+        >
           <div className="navbar-brand">
-            <a className="navbar-item" href="/">
-              The Swedish Villa
-            </a>
+            <div className="navbar-item is-size-5" href="/">
+              THE SWEDISH VILLA
+            </div>
 
             <button
               className="navbar-burger burger"
@@ -47,22 +52,29 @@ function App() {
                 <p>About us</p>
               </div>
               <div className="navbar-item">
-                <button className="button is-danger is-small">
+                <motion.button
+                  whileHover={{ backgroundColor: "#1e272e" }}
+                  className="button is-success is-small"
+                >
                   <i className="fas fa-user"></i>&nbsp;Log in
-                </button>
+                </motion.button>
               </div>
             </div>
           </div>
         </nav>
-        <div className="hero-body">
+        <div
+          className="hero-body"
+          style={{ backgroundColor: "rgba(30, 39, 46,0.6)" }}
+        >
           <div className="container has-text-centered">
             <h1 className="title is-1">Catch Phrase</h1>
-            <button
+            <motion.button
+              whileHover={{ backgroundColor: "#1e272e" }}
               onClick={() => setModal(true)}
               className="button is-rounded is-primary"
             >
               Let's get started !
-            </button>
+            </motion.button>
           </div>
         </div>
       </section>
@@ -72,74 +84,106 @@ function App() {
           <div className="container">
             <h2 className="title mb-6">Brands who trust us</h2>
             <hr />
-            <div className="columns is-multiline mx-6">
-              <div className="column is-one-quarter has-text-centered my-6">
+            <div className="columns is-mobile is-multiline ">
+              <div className="column is-one-quarter-tablet has-text-centered my-6 is-half-mobile">
                 <motion.p
                   initial={{ scale: 1 }}
-                  whileHover={{ scale: 1.2, backgroundColor: "#575fcf" }}
+                  whileHover={{
+                    scale: 1.5,
+                    backgroundColor: "#c6a161",
+                    borderRadius: 100,
+                  }}
                   className="tag is-dark is-size-3 is-large"
                 >
                   Brand 1
                 </motion.p>
               </div>
-              <div className="column is-one-quarter has-text-centered my-6">
+              <div className="column is-one-quarter-tablet has-text-centered my-6 is-half-mobile">
                 <motion.p
                   initial={{ scale: 1 }}
-                  whileHover={{ scale: 1.2, backgroundColor: "#575fcf" }}
+                  whileHover={{
+                    scale: 1.5,
+                    backgroundColor: "#c6a161",
+                    borderRadius: 100,
+                  }}
                   className="tag is-dark is-size-3 is-large"
                 >
                   Brand 2
                 </motion.p>
               </div>
-              <div className="column is-one-quarter has-text-centered my-6">
+              <div className="column is-one-quarter-tablet has-text-centered my-6 is-half-mobile">
                 <motion.p
                   initial={{ scale: 1 }}
-                  whileHover={{ scale: 1.2, backgroundColor: "#575fcf" }}
+                  whileHover={{
+                    scale: 1.5,
+                    backgroundColor: "#c6a161",
+                    borderRadius: 100,
+                  }}
                   className="tag is-dark is-size-3 is-large"
                 >
                   Brand 3
                 </motion.p>
               </div>
-              <div className="column is-one-quarter has-text-centered my-6">
+              <div className="column is-one-quarter-tablet has-text-centered my-6 is-half-mobile">
                 <motion.p
                   initial={{ scale: 1 }}
-                  whileHover={{ scale: 1.2, backgroundColor: "#575fcf" }}
+                  whileHover={{
+                    scale: 1.5,
+                    backgroundColor: "#c6a161",
+                    borderRadius: 100,
+                  }}
                   className="tag is-dark is-size-3 is-large"
                 >
                   Brand 4
                 </motion.p>
               </div>
-              <div className="column is-one-quarter has-text-centered my-6">
+              <div className="column is-one-quarter-tablet has-text-centered my-6 is-half-mobile">
                 <motion.p
                   initial={{ scale: 1 }}
-                  whileHover={{ scale: 1.2, backgroundColor: "#575fcf" }}
+                  whileHover={{
+                    scale: 1.5,
+                    backgroundColor: "#c6a161",
+                    borderRadius: 100,
+                  }}
                   className="tag is-dark is-size-3 is-large"
                 >
                   Brand 5
                 </motion.p>
               </div>
-              <div className="column is-one-quarter has-text-centered my-6">
+              <div className="column is-one-quarter-tablet has-text-centered my-6 is-half-mobile">
                 <motion.p
                   initial={{ scale: 1 }}
-                  whileHover={{ scale: 1.2, backgroundColor: "#575fcf" }}
+                  whileHover={{
+                    scale: 1.5,
+                    backgroundColor: "#c6a161",
+                    borderRadius: 100,
+                  }}
                   className="tag is-dark is-size-3 is-large"
                 >
                   Brand 6
                 </motion.p>
               </div>
-              <div className="column is-one-quarter has-text-centered my-6">
+              <div className="column is-one-quarter-tablet has-text-centered my-6 is-half-mobile">
                 <motion.p
                   initial={{ scale: 1 }}
-                  whileHover={{ scale: 1.2, backgroundColor: "#575fcf" }}
+                  whileHover={{
+                    scale: 1.5,
+                    backgroundColor: "#c6a161",
+                    borderRadius: 100,
+                  }}
                   className="tag is-dark is-size-3 is-large"
                 >
                   Brand 7
                 </motion.p>
               </div>
-              <div className="column is-one-quarter has-text-centered my-6">
+              <div className="column is-one-quarter-tablet has-text-centered my-6 is-half-mobile">
                 <motion.p
                   initial={{ scale: 1 }}
-                  whileHover={{ scale: 1.2, backgroundColor: "#575fcf" }}
+                  whileHover={{
+                    scale: 1.5,
+                    backgroundColor: "#c6a161",
+                    borderRadius: 100,
+                  }}
                   className="tag is-dark is-size-3 is-large"
                 >
                   Brand 8
@@ -152,7 +196,7 @@ function App() {
       <section className="hero is-fullheight">
         <div className="hero-body">
           <div className="container">
-            <h2 className="title mb-6">How does it Work</h2>
+            <h2 className="title is-1 mb-6">How does it Work</h2>
             <hr />
             <div className="columns">
               <div className="column">
@@ -172,12 +216,13 @@ function App() {
                   </p>
                 </div>
                 <div className="has-text-centered">
-                  <button
+                  <motion.button
+                    whileHover={{ backgroundColor: "#1e272e" }}
                     onClick={() => setModal(true)}
                     className="button is-rounded is-primary is-fullwidth"
                   >
                     Let's get started !
-                  </button>
+                  </motion.button>
                 </div>
               </div>
               <div className="column">
@@ -193,6 +238,7 @@ function App() {
                       <p>
                         Do a meeting with our curators to discuss you project
                       </p>
+                      <hr />
                     </div>
                   </li>
                   <li className="steps-segment">
@@ -207,6 +253,7 @@ function App() {
                         We provide you with a curated list of independent
                         experts that match perfectly you project
                       </p>
+                      <hr />
                     </div>
                   </li>
                   <li className="steps-segment">
@@ -221,6 +268,7 @@ function App() {
                         Each experts express his willing to work on the project
                         and you make the final choice
                       </p>
+                      <hr />
                     </div>
                   </li>
                   <li className="steps-segment">
@@ -247,7 +295,7 @@ function App() {
 
             <div className="columns">
               <div className="column is-1"></div>
-              <div className="column is-5">
+              <div className="column is-6">
                 <figure className="image is-5by3">
                   <img src="https://picsum.photos/500/300" alt="random" />
                 </figure>
@@ -258,12 +306,13 @@ function App() {
               </div>
             </div>
             <div className="has-text-centered">
-              <button
+              <motion.button
+                whileHover={{ backgroundColor: "#1e272e" }}
                 onClick={() => setModal(true)}
                 className="button is-rounded is-primary"
               >
                 Let's get started !
-              </button>
+              </motion.button>
             </div>
           </div>
         </div>
@@ -307,8 +356,9 @@ function App() {
             onClick={() => setModal(false)}
           ></div>
           <motion.div
-            initial={{ y: "25vh" }}
+            initial={{ y: "100vh" }}
             animate={{ y: 0 }}
+            transition={{ type: "spring", stiffness: 50 }}
             className="modal-card"
           >
             <header className="modal-card-head">
@@ -323,53 +373,72 @@ function App() {
               <div className="columns">
                 <div className="column">
                   <div className="field">
-                    <div className="control">
+                    <div className="control has-icons-left">
                       <input
                         className="input is-small"
                         type="text"
                         placeholder="Company*"
                       />
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-building"></i>
+                      </span>
                     </div>
                   </div>
                   <div className="field">
-                    <div className="control">
+                    <div className="control has-icons-left">
                       <input
                         className="input is-small"
                         type="text"
                         placeholder="Name*"
                       />
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-user"></i>
+                      </span>
                     </div>
                   </div>
                   <div className="field">
-                    <div className="control">
+                    <div className="control has-icons-left">
                       <input
                         className="input is-small"
                         type="text"
                         placeholder="Position"
                       />
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-suitcase"></i>
+                      </span>
                     </div>
                   </div>
                   <div className="field">
-                    <div className="control">
+                    <div className="control has-icons-left">
                       <input
                         className="input is-small"
                         type="text"
                         placeholder="Mail*"
                       />
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                      </span>
                     </div>
                   </div>
                   <div className="field">
-                    <div className="control">
+                    <div className="control has-icons-left">
                       <input
                         className="input is-small"
                         type="text"
                         placeholder="Phone"
                       />
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-phone"></i>
+                      </span>
                     </div>
                   </div>
                 </div>
                 <div className="column">
-                  <input type="date" className="input is-small" />
+                  <input
+                    type="date"
+                    className="input is-small"
+                    placeholder="Date ..."
+                  />
                 </div>
               </div>
 
@@ -407,15 +476,20 @@ function App() {
               </div>
             </section>
             <footer className="modal-card-foot">
-              <button
+              <motion.button
+                whileHover={{ backgroundColor: "#1e272e" }}
                 className="button is-primary"
                 onClick={() => setModal(false)}
               >
                 Request meeting
-              </button>
-              <button className="button" onClick={() => setModal(false)}>
+              </motion.button>
+              <motion.button
+                whileHover={{ backgroundColor: "#1e272e", color: "white" }}
+                className="button is-light"
+                onClick={() => setModal(false)}
+              >
                 Cancel
-              </button>
+              </motion.button>
             </footer>
           </motion.div>
         </motion.div>

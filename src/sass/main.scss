@@ -11,6 +11,7 @@ $red: #ef5777;
 $blue: #4bcffa;
 $grey: #1e272e;
 $indigo: #575fcf;
+$beige: #c6a161;
 
 // // Update Bulma's global variables
 $dark: $grey;
@@ -21,8 +22,11 @@ $warning-invert: #ffffff;
 $danger: $red;
 $info: $blue;
 $info-invert: #ffffff;
-$primary: $indigo;
+$primary: $beige;
+$primary-invert: #ffffff;
 $family-sans-serif: "Mulish";
+
+$gap: 256px;
 // $grey-dark: $brown;
 // $grey-light: $beige-light;
 // $primary: $purple;
